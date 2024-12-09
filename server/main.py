@@ -42,7 +42,7 @@ def health_check():
 
 @app.get("/")
 def home():
-    return {"message": "Aslan AI welcomes you to the backend of the project."}
+    return {"message": "ET Kash welcomes you to the backend of the project."}
 
 if __name__ == "__main__":
     import uvicorn
