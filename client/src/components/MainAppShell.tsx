@@ -138,7 +138,8 @@ const MainAppShell = () => {
                   }}>
                     <DarkLightThemeButton />
                     <div style={{marginLeft: (screenX / 6).toFixed(2)}}>
-                      <Text ml={20}>Log out</Text>
+                    {/*  <Text ml={20}>Log out</Text> */}
+                      <Text ml={20}>Log in</Text>
                     </div>
                   </div>
                 </div>

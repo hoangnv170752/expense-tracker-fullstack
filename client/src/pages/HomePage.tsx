@@ -65,7 +65,8 @@ const HomePage = () => {
                 : theme.colors.gray[9],
           })}
         >
-          YOUR BALANCE IS: ${budget - expenses}
+          {/* YOUR BALANCE IS: */}
+          {'Name'} BALANCE IS: ${budget - expenses}
         </Text>
         <Text
           size={15}
